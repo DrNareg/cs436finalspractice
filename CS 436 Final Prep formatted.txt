@@ -1,0 +1,488 @@
+﻿CS 436 Final Prep
+Quiz 1:
+1. Match each type of network technology with its description.
+* WAN: Operates over large, geographically-separated areas ✓
+* LAN: Operates over a small geographical area, such as a college campus ✓
+* DSL: Offered by phone companies and uses twisted-pair cabling to the home ✓
+* Cable network: Offered by TV companies and uses coax cabling to the home ✓
+* SAN: Dedicated, high-performance network that moves data between servers and storage ✓
+2. Match each of the following terms with its definition.
+* A device that forwards packets based on destination IP address: router ✓
+* A device that forwards frames based on destination MAC address: switch ✓
+* A set of devices connected by some form of transmission medium: network ✓
+* A chunk of data that is sent on a network: packet ✓
+* A set of rules that govern how devices on a network exchange data: protocol ✓
+3. Which of the following is an enterprise WAN technology used by large organizations that need lots of bandwidth?
+* a. Optical Transport Network ✓
+* b. Cable modem service
+* c. Digital Subscriber Line
+* d. Leased line
+4. Match each layer in the Internet protocol stack with its description.
+* Physical: Sends bits across the wire (or wireless medium) ✓
+* Link: Sends data to a neighboring device such as a switch ✓
+* Network: Forwards data through an internetwork and runs routing protocols ✓
+* Transport: Provides end-to-end process-to-process communication ✓
+* Application: Interacts with the network user; provides client/server communications ✓
+5. Drag the correct layer of the Internet protocol stack to each protocol.
+* Ethernet: Link ✓
+* IPv4: Network ✓
+* UDP: Transport ✓
+* TCP: Transport ✓
+* HTTP: Application ✓
+* DNS: Application ✓
+6. Which two layers are present in the OSI model but not in the Internet Protocol model?
+* a. Presentation and Session ✓
+* b. Application and Presentation
+* c. Session and Transport
+* d. Transport and Network
+7. Why do we use a layered model for networking?
+* a. ICANN says that networks must be layered for participation in the Internet.
+* b. Layering makes it easier to update system components. ✓
+* c. A layer can duplicate lower-layer functionality.
+* d. Layering reduces computational overhead.
+* e. Packets can be shorter with fewer headers when layering is used.
+8. What does encapsulation refer to in the networking field?
+* a. Adding a layer's header and (optionally) trailer to a protocol message passed down to the layer from an upper layer ✓
+* b. Encoding data in the proper format based on the standard protocol rules for a layer
+* c. Hiding protocol data so that unauthorized entities can't decipher the data without a key
+* d. Layering network functionality in order to modularize and abstract network tasks
+9. What is a broadcast address?
+* a. A destination address in a packet that means the packet goes to every node ✓
+* b. A source address in a packet that means the packet comes from a broadcast
+* c. An address that identifies a specific network node
+* d. A type of address used exclusively on broadband networks
+10. What is the middle window pane (shown here) in Wireshark called?
+* a. The Packet Details pane ✓
+* b. The Packet List pane
+* c. The Packet Bytes pane
+* d. The Hexadecimal/ASCII view
+
+
+________________
+
+
+Quiz 2:
+1. Match each layer in the Internet protocol stack with its description.
+* Physical: Sends bits across the wire (or wireless medium) ✓
+* Link: Sends data to a neighboring device such as a switch ✓
+* Network: Forwards data through an internetwork and runs routing protocols ✓
+* Transport: Provides end-to-end process-to-process communication ✓
+* Application: Interacts with the network user; provides client/server communications ✓
+2. Which of the following best describes the Internet?
+* a. A system of centralized mainframe servers
+* b. A single network owned by one company
+* c. A wireless communication system
+* d. A collection of networks connected together ✓
+3. What is the main purpose of the traceroute (or tracert) tool?
+* a. To assign IP addresses to devices on a network
+* b. To check end-to-end delay and show the path packets take ✓
+* c. To measure the available bandwidth on a link
+* d. To encrypt data during network transmission
+4. Why is twisted-pair cabling twisted?
+* a. The cabling had a difficult childhood.
+* b. The cabling needs the twists to make it stronger.
+* c. Twisting the cables helps cancel out noise. ✓
+* d. Twisting the cables decreases the signal-to-noise ratio.
+* e. So it can react to changes more quickly.
+5. Match each advantage of copper cabling with its description.
+* Conductivity: Carries electric current well ✓
+* Corrosion resistance: Doesn't rust ✓
+* Ductility: Can be drawn into thin wires without breaking ✓
+* Malleability: Easy to shape ✓
+* Strength: Hard to break ✓
+6. Which category of UTP cable is used for Gigabit Ethernet?
+* a. Category 1
+* b. Category 2
+* c. Category 3
+* d. Category 4
+* e. Category 6 ✓
+7. Which of the following is an accurate advantage of copper cabling compared to fiber-optic cabling?
+* a. Copper cabling is susceptible to electromagnetic interference.
+* b. Copper cabling is susceptible to attenuation.
+* c. Copper cabling supports higher bandwidth than fiber-optic cabling.
+* d. Copper cabling is less expensive than fiber-optic cabling, especially for short distances. ✓
+* e. Copper is more plentiful on the earth than glass.
+8. Which technology supports the highest bandwidth?
+* a. Singlemode fiber ✓
+* b. Multimode fiber
+* c. Copper cabling
+* d. Wireless medium
+9. What is an advantage of fiber-optic cabling?
+* a. It is immune to electromagnetic noise ✓
+* b. It is inexpensive
+* c. It is easy to install
+* d. It is widely used in homes and enterprises
+10. What is the most common network medium used for Ethernet?
+* a. Unshielded twisted-pair copper cable ✓
+* b. Serial cable
+* c. The air (wireless)
+* d. Coax copper cable
+________________
+
+
+Quiz 3:
+Here is the cleaned-up version of your third quiz. I have corrected the answer for Question 7 to reflect the accurate information while maintaining the formatting style you requested.
+________________
+
+
+Networking Quiz 3 Results
+1. Which of the following best describes full-duplex data flow?
+* a. Data flows on a single cable that is terminated at both ends.
+* b. Data can flow in only one direction.
+* c. Data can flow in only one direction at a time.
+* d. Data can flow in both directions at a time. ✓
+* e. Data is blocked from flowing in any direction.
+2. Which of the following types of cabling is usually used in Ethernet LANs to connect end-user computers?
+* a. Unshielded Twisted Pair (UTP) ✓
+* b. Shielded Twisted Pair (STP)
+* c. Coax
+* d. Single-mode fiber-optic cabling
+* e. Multimode fiber-optic cabling
+3. Which protocol would you use to implement a redundant Layer 2 switched network that has multiple possible paths between nodes but only one active path?
+* a. Transmission Control Protocol (TCP)
+* b. CSMA/CD
+* c. IEEE 802.11
+* d. Open Shortest Path First (OSPF)
+* e. Spanning Tree Protocol (STP) ✓
+4. What are the names of the fields in an Ethernet II frame?
+* A: Destination address ✓
+* B: Source address ✓
+* C: Type ✓
+* D: Data ✓
+* E: Frame Check Sequence (FCS) ✓
+5. Where is the Link Layer typically implemented on an end system?
+* a. In a network adapter (NIC)
+* b. In hardware
+* c. In software
+* d. In the system's CPU
+* e. All of the answers are correct ✓
+6. What do the first six hexadecimal numbers in a MAC address represent?
+* a. Interface serial number
+* b. Vendor code ✓
+* c. Interface interrupt identifier
+* d. Subnet mask
+* e. Destination address
+7. How long are MAC addresses in bits?
+* a. 8
+* b. 12
+* c. 24
+* d. 48 ✓
+* e. 64
+8. Drag the correct layer of the Internet protocol stack to each protocol.
+* Ethernet: Link ✓
+* IPv4: Network ✓
+* UDP: Transport ✓
+* TCP: Transport ✓
+* HTTP: Application ✓
+* DNS: Application ✓
+________________
+
+
+Quiz 4:
+Here is the cleaned-up version of your fourth quiz. I have corrected the answer for the SSID security definition in Question 2 and streamlined the formatting for a perfect copy-paste record.
+________________
+
+
+Wireless Networking Quiz Results
+1. Match each definition of a wireless technology with the term that it defines.
+* MIMO: Multiple antennas are used at the transmitter and receiver. ✓
+* Ad hoc mode: Devices communicate in a peer-to-peer network without a central access point. ✓
+* Infrastructure mode: Devices communicate with each other through a base station or access point. ✓
+* Passive scanning: Wireless clients listen for Beacon frames to learn about nearby access points. ✓
+* Active scanning: Wireless clients send Probe Requests that contain a Service Set Identifier (SSID). ✓
+2. Match each wireless networking security technology with its definition.
+* VPN: The most secure way to do wireless networking for business employees because data is sent in an encrypted tunnel ✓
+* Active scanning: Provides security by requiring the user to know the SSID ✓
+* MAC filters: Implements security by allowing only some devices to use the network based on their unique hardware identifier ✓
+* WEP: Encrypts data using the RC4 stream cipher but is easily cracked ✓
+* WPA2: Encrypts data with the Advanced Encryption Standard (AES) ✓
+3. What type of communication does Wi-Fi use to transmit and receive?
+* a. Simplex
+* b. Half-duplex ✓
+* c. Full-duplex
+* d. Double-duplex
+4. What is the fundamental job of a wireless base station?
+* a. Relay packets from wireless hosts to a wired network ✓
+* b. Organize wireless nodes into an ad hoc network
+* c. Increase the Signal to Noise Ratio (SNR)
+* d. Reduce interference caused by hidden wireless nodes
+* e. All of the answers are correct.
+5. Which IEEE standard defines Wireless LAN (Wi-Fi) technologies?
+* a. IEEE 802.3
+* b. IEEE 802.5
+* c. IEEE 802.11 ✓
+* d. IEEE 802.15
+6. What is the media access control protocol used on wireless LANs?
+* a. Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) ✓
+* b. Code Division Multiple Access (CDMA)
+* c. Cipher Block Chaining (CBC)
+* d. Classless Interdomain Routing (CIDR)
+* e. All of the answers are correct.
+7. What is the hidden node problem?
+* a. A problem in wireless networking that occurs when a node is visible to some nodes but not to all. ✓
+* b. A security problem caused by nodes secretly encrypting their data.
+* c. A problem at the IP layer where routers forward traffic without telling other routers.
+* d. An HTML tag that hides items, thus making debugging difficult.
+8. Which statement about WPA2 Enterprise is true?
+* a. It uses a pre-shared key that is manually configured on all clients
+* b. It relies on TKIP for encryption
+* c. It typically uses 802.1X with a RADIUS server for authentication ✓
+* d. It can't provide protection against rogue access points
+
+
+________________
+
+
+Quiz 5:
+1. Match each of the following terms with its definition.
+* Router: A device that forwards packets in the core of a network ✓
+* LAN: A network that operates within a limited geographic area ✓
+* Network: A set of devices connected by some form of transmission medium ✓
+* Packet: A chunk of data that is sent on a network ✓
+* Protocol: A set of rules that govern how devices on a network exchange data ✓
+2. Match each type of network technology with its description.
+* WAN: An internetwork that operates over a large geographic area ✓
+* Leased lines: Dedicated digital, copper circuits that a carrier provides for a customer ✓
+* DSL: Offered by phone companies and uses twisted-pair cabling to the home ✓
+* Cable network: Offered by TV companies and uses coax cabling to the home ✓
+* SAN: Dedicated, high-performance network that moves data between servers and storage ✓
+3. What information should always accompany an IPv4 address in addressing documentation?
+* a. An indication of the prefix length, either as a subnet mask or as /Length in CIDR format ✓
+* b. An indication of the domain name (FQDN)
+* c. The address of the DHCP server
+* d. The address of the NAT gateway
+4. In a Unix-based traceroute capture, what does Frame 26 indicate?
+* Router IPv4: 4.59.34.66 ✓
+* Message: The TTL has exceeded ✓
+* Original Packet Type: UDP ✓
+* Purpose: To learn the path to the destination (e.g., 72.163.4.185) ✓
+5. A Wireshark capture shows a Juniper device using ARP. Which statement is true?
+* a. The device is using ARP to find the MAC address for a specific IP (e.g., 66.241.68.16). ✓
+* b. The MAC address for the target is always 00:00:00:00:00:00.
+* c. The packet is sent to the entire Internet.
+6. What is the main reason that 802.11 uses CSMA/CA instead of CSMA/CD?
+* a. Wireless signals travel faster than wired signals
+* b. Collision detection is difficult in a wireless environment ✓
+* c. Access points prevent all collisions
+
+
+________________
+
+
+Quiz 6:
+1. What information does a router use to direct a packet to its destination?
+* a. Uniform Resource Locator (URL)
+* b. DNS response
+* c. Destination IP address ✓
+* d. TCP port number
+* e. Trace route
+2. Why does a router have more than one IP address?
+* a. A router has an IP address on each of the networks it connects. ✓
+* b. For management purposes.
+* c. For redundancy/failover.
+* d. To provide better network security.
+3. What are the RFC 1918 private IP address ranges?
+* a. 10.0.0.0/8
+* b. 172.16.0.0/12
+* c. 192.168.0.0/16
+* f. All of the addresses listed ✓
+4. Which of the following is the correct DHCP configuration for Router B to provide services to its inside network (192.168.96.64/26)?
+* a. Configuration: ✓
+   * ip dhcp pool My_Pool
+   * network 192.168.96.64 255.255.255.192
+   * default-router 192.168.96.65
+   * dns-server 8.8.8.8
+5. In Wireshark, what does a device address like fe80::aa20:66ff:fe58:4f69 refer to?
+* a. An IPv6 address ✓
+* b. An IPv4 address
+* c. A port number
+* d. A MAC address
+6. Boolean Logic Table
+* AND Operations:
+   * 0 AND 0 = 0 ✓ | 0 AND 1 = 0 ✓ | 1 AND 0 = 0 ✓ | 1 AND 1 = 1 ✓
+* OR Operations:
+   * 0 OR 0 = 0 ✓ | 0 OR 1 = 1 ✓ | 1 OR 0 = 1 ✓ | 1 OR 1 = 1 ✓
+7. Subnet Analysis (172.16.20.10 with mask 255.255.255.0)
+* Network Number: 172.16.20.0 ✓
+* CIDR Format: /24 ✓
+* Broadcast Address: 172.16.20.255 ✓
+8. Subnet Analysis (10.1.1.1 with mask 255.255.240.0)
+* Network Number: 10.1.0.0 ✓
+* CIDR Format: /20 ✓
+* Broadcast Address: 10.1.15.255 ✓
+9. Subnet Analysis (66.241.68.17/27)
+* Network Number: 66.241.68.0 ✓
+* Broadcast Address: 66.241.68.31 ✓
+10. iPhone Wireless Network Analysis
+* IPv4 Address: 192.168.213.139 ✓
+* Subnet Mask (Decimal): 255.255.252.0 ✓
+* Subnet Mask (Binary 3rd Byte): 11111100 ✓
+* Subnet Mask (CIDR): /22 ✓
+* Subnet Mask (Hex): FF.FF.FC.00 ✓
+* Default Gateway (Router): 192.168.212.1 ✓
+
+
+________________
+
+
+Quiz 7:
+1. Why do routers run a routing protocol?
+* a. To learn about other networks and how to reach them ✓
+* b. To determine an IP address for their interfaces
+* c. To assign IP addresses to their clients
+* d. To learn MAC addresses for connected devices
+2. Match the characteristic with the routing type (Distance-vector vs. Link-state).
+* Maintains a routing table of networks, direction, and distance: Distance-vector ✓
+* Periodically transmits the full routing table via broadcast: Distance-vector ✓
+* Sends updates only when an interconnection changes status: Link-state ✓
+* Treats the internetwork as a map or graph: Link-state ✓
+3. What type of route is 0.0.0.0/0 via 192.168.10.1?
+* a. Distance vector
+* b. Link state
+* c. Directly connected
+* d. Dynamic
+* e. Default ✓
+4. What is the address of the default gateway for the computer in the Windows route print screenshot?
+* a. 255.255.255.255
+* b. 140.211.99.1 ✓
+* c. 127.0.0.1
+* d. 140.211.99.15
+5. What is typically found in a router's routing table?
+* a. Destination address ranges and the interface to use to reach each range ✓
+* b. Addresses of servers clients are trying to reach
+* c. Port numbers for Internet host services
+* d. Recent ping and traceroute results
+6. Is the listed protocol Distance-vector or Link-state?
+* RIP: Distance-vector ✓
+* EIGRP: Distance-vector ✓
+* IS-IS: Link-state ✓
+* OSPF: Link-state ✓
+7. What static routes should Router B use to reach other subnets and the Internet?
+* a. Configuration: ✓
+   * ip route 0.0.0.0 0.0.0.0 192.168.10.1
+   * ip route 192.168.96.0 255.255.255.192 192.168.10.8
+   * ip route 192.168.96.128 255.255.255.192 192.168.10.10
+8. Based on the show ip route output provided, which statement is true?
+* a. The output displays only connected and static routes.
+* b. The output is from Router B.
+* c. Router D's network is missing.
+* e. The output is from Router A and shows EIGRP routes. ✓
+9. Which of the following routing protocols is an inter-autonomous-system protocol?
+* a. BGP (Border Gateway Protocol) ✓
+* b. OSPF
+* c. EIGRP
+* d. RIP
+* e. IS-IS
+
+
+________________
+
+
+Quiz 8:
+Here is the cleaned-up, copy-pastable version of your final Networking quiz.
+________________
+
+
+Networking Concepts & Algorithms Quiz Results
+1. What is an autonomous system?
+* a. A set of networks that are under the administrative control of a single entity ✓
+* b. A router that acts independently from all other routers
+* c. A router that makes self-assigned decisions without configuration
+* d. An algorithm for sending routing information
+2. What static routes should Router A use to reach other subnets and the Internet?
+* a. Configuration: ✓
+   * ip route 0.0.0.0 0.0.0.0 192.168.10.1
+   * ip route 192.168.96.64 255.255.255.192 192.168.10.9
+   * ip route 192.168.96.128 255.255.255.192 192.168.10.10
+3. What is a broadcast address?
+* a. A destination address in a packet that means the packet goes to every node ✓
+* b. A source address from a broadcast origin
+* c. An address that identifies a specific network node
+* d. A type of address used exclusively on broadband
+4. Which type of routing protocols use the Bellman-Ford algorithm?
+* a. Distance-vector ✓
+* b. Link-state
+* c. Static
+* d. Default
+5. Which type of routing protocols use Dijkstra's algorithm?
+* a. Distance-vector
+* b. Link-state ✓
+* c. Static
+* d. Default
+6. Which term refers to the determining factor used by routing algorithms to decide which route is better?
+* a. Metric ✓
+* b. Link state
+* c. NAT
+* d. Vector
+7. Which routing term refers to the closest adjacent router a packet can go through?
+* a. Next hop ✓
+* b. Link state
+* c. Autonomous system
+* d. Root router
+8. How do path-vector routing protocols recognize a routing loop?
+* a. When a router receives a route update, if its own autonomous system number is in the path, there's a loop. ✓
+* b. Routers run Dijkstra's algorithm
+* c. Updates hit the maximum hop count
+* d. The split horizon rule eliminates all loops
+
+
+________________
+
+
+Quiz 9:
+Here is the cleaned-up, copy-pastable version of your Transport and Application Layer quiz.
+________________
+
+
+Transport & Application Layer Quiz Results
+1. Complete the statements about the Transport Layer.
+* The Transport Layer provides for logical communications between application processes running on different hosts, protecting hosts from the requirement to know the details of the underlying infrastructure. ✓
+* The Transport Layer at the sender divides the byte stream into segments. ✓
+* The Transport Layer at the recipient reassembles the byte stream and makes it available to applications. ✓
+* The recipient demultiplexes multiple data streams based on the destination port number. ✓
+2. Which of the following lists fields in the UDP header?
+* a. Sender IP, destination IP, length, checksum
+* b. Source port, destination port, length, checksum ✓
+* c. Sequence number, acknowledgement number, window size, checksum
+* d. Flags, queries, answers, authorities
+3. Match the well-known port number to the network service.
+* Secure Shell (SSH): 22 ✓
+* Domain Name System (DNS): 53 ✓
+* DHCP: 67 and 68 ✓
+* HTTP: 80 ✓
+* HTTPS: 443 ✓
+4. What process (or processes) does the screenshot show?
+* a. DNS query and reply
+* b. ARP broadcast and response
+* c. TCP 3-way handshake
+* d. HTTP GET
+* e. TCP connection closing
+* f. All of the answers are correct ✓
+5. Complete the analysis of the HTTP packet screenshot.
+* The screenshot shows an HTTP packet from a client. ✓
+* The computer is sending a GET to download the webpage from a host named txt.com. ✓
+* The computer can accept English. ✓
+* The computer is sending this packet to 198.23.86.83. ✓
+* The computer discovered the address for the host name by using DNS. ✓
+6. In the URL https://inside.sou.edu/cs/faculty.html, what does faculty.html refer to?
+* a. A host name
+* b. A directory name
+* c. A file name ✓
+* d. A DNS server
+7. Sequence of steps for a client PC accessing www.facebook.com:
+1. Client sends a DNS query to get the IP address. ✓
+2. Client receives a DNS response with the IP address (69.63.176.15). ✓
+3. Client sends a TCP SYN to set up the connection. ✓
+4. Client receives a TCP SYN ACK and sends an ACK (handshake complete). ✓
+5. Client sends an HTTP GET message to the IP. ✓
+6. Client receives an HTTP 200 OK response. ✓
+7. Client receives the TCP segments for the web page. ✓
+8. Match each layer in the Internet protocol stack with its description.
+* Physical: Sends bits across the wire (or wireless medium) ✓
+* Link: Sends data to a neighboring device such as a switch ✓
+* Network: Forwards data through an internetwork and runs routing protocols ✓
+* Transport: Provides end-to-end process-to-process communication ✓
+* Application: Interacts with the network user; provides client/server communications ✓
+
+
+________________

@@ -1,0 +1,1080 @@
+[
+  {
+    "type": "matching",
+    "question": "Match each type of network technology with its description.",
+    "pairs": [
+      {
+        "left": "WAN",
+        "right": "Operates over large, geographically-separated areas"
+      },
+      {
+        "left": "LAN",
+        "right": "Operates over a small geographical area, such as a college campus"
+      },
+      {
+        "left": "DSL",
+        "right": "Offered by phone companies and uses twisted-pair cabling to the home"
+      },
+      {
+        "left": "Cable network",
+        "right": "Offered by TV companies and uses coax cabling to the home"
+      },
+      {
+        "left": "SAN",
+        "right": "Dedicated, high-performance network that moves data between servers and storage"
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "Match each of the following terms with its definition.",
+    "pairs": [
+      {
+        "left": "A device that forwards packets based on destination IP address",
+        "right": "router"
+      },
+      {
+        "left": "A device that forwards frames based on destination MAC address",
+        "right": "switch"
+      },
+      {
+        "left": "A set of devices connected by some form of transmission medium",
+        "right": "network"
+      },
+      {
+        "left": "A chunk of data that is sent on a network",
+        "right": "packet"
+      },
+      {
+        "left": "A set of rules that govern how devices on a network exchange data",
+        "right": "protocol"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following is an enterprise WAN technology used by large organizations that need lots of bandwidth?",
+    "choices": [
+      "Optical Transport Network",
+      "Cable modem service",
+      "Digital Subscriber Line",
+      "Leased line"
+    ],
+    "answer": "Optical Transport Network"
+  },
+  {
+    "type": "matching",
+    "question": "Match each layer in the Internet protocol stack with its description.",
+    "pairs": [
+      {
+        "left": "Physical",
+        "right": "Sends bits across the wire (or wireless medium)"
+      },
+      {
+        "left": "Link",
+        "right": "Sends data to a neighboring device such as a switch"
+      },
+      {
+        "left": "Network",
+        "right": "Forwards data through an internetwork and runs routing protocols"
+      },
+      {
+        "left": "Transport",
+        "right": "Provides end-to-end process-to-process communication"
+      },
+      {
+        "left": "Application",
+        "right": "Interacts with the network user; provides client/server communications"
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "Drag the correct layer of the Internet protocol stack to each protocol.",
+    "pairs": [
+      {
+        "left": "Ethernet",
+        "right": "Link"
+      },
+      {
+        "left": "IPv4",
+        "right": "Network"
+      },
+      {
+        "left": "UDP",
+        "right": "Transport"
+      },
+      {
+        "left": "TCP",
+        "right": "Transport"
+      },
+      {
+        "left": "HTTP",
+        "right": "Application"
+      },
+      {
+        "left": "DNS",
+        "right": "Application"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which two layers are present in the OSI model but not in the Internet Protocol model?",
+    "choices": [
+      "Presentation and Session",
+      "Application and Presentation",
+      "Session and Transport",
+      "Transport and Network"
+    ],
+    "answer": "Presentation and Session"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Why do we use a layered model for networking?",
+    "choices": [
+      "ICANN says that networks must be layered for participation in the Internet.",
+      "Layering makes it easier to update system components.",
+      "A layer can duplicate lower-layer functionality.",
+      "Layering reduces computational overhead.",
+      "Packets can be shorter with fewer headers when layering is used."
+    ],
+    "answer": "Layering makes it easier to update system components."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What does encapsulation refer to in the networking field?",
+    "choices": [
+      "Adding a layer's header and (optionally) trailer to a protocol message passed down to the layer from an upper layer",
+      "Encoding data in the proper format based on the standard protocol rules for a layer",
+      "Hiding protocol data so that unauthorized entities can't decipher the data without a key",
+      "Layering network functionality in order to modularize and abstract network tasks"
+    ],
+    "answer": "Adding a layer's header and (optionally) trailer to a protocol message passed down to the layer from an upper layer"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is a broadcast address?",
+    "choices": [
+      "A destination address in a packet that means the packet goes to every node",
+      "A source address in a packet that means the packet comes from a broadcast",
+      "An address that identifies a specific network node",
+      "A type of address used exclusively on broadband networks"
+    ],
+    "answer": "A destination address in a packet that means the packet goes to every node"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the middle window pane (shown here) in Wireshark called?",
+    "choices": [
+      "The Packet Details pane",
+      "The Packet List pane",
+      "The Packet Bytes pane",
+      "The Hexadecimal/ASCII view"
+    ],
+    "answer": "The Packet Details pane",
+    "image": "/static/pics/quiz1question10.png"
+  },
+  {
+    "type": "matching",
+    "question": "Match each layer in the Internet protocol stack with its description.",
+    "pairs": [
+      {
+        "left": "Physical",
+        "right": "Sends bits across the wire (or wireless medium)"
+      },
+      {
+        "left": "Link",
+        "right": "Sends data to a neighboring device such as a switch"
+      },
+      {
+        "left": "Network",
+        "right": "Forwards data through an internetwork and runs routing protocols"
+      },
+      {
+        "left": "Transport",
+        "right": "Provides end-to-end process-to-process communication"
+      },
+      {
+        "left": "Application",
+        "right": "Interacts with the network user; provides client/server communications"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following best describes the Internet?",
+    "choices": [
+      "A system of centralized mainframe servers",
+      "A single network owned by one company",
+      "A wireless communication system",
+      "A collection of networks connected together"
+    ],
+    "answer": "A collection of networks connected together"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the main purpose of the traceroute (or tracert) tool?",
+    "choices": [
+      "To assign IP addresses to devices on a network",
+      "To check end-to-end delay and show the path packets take",
+      "To measure the available bandwidth on a link",
+      "To encrypt data during network transmission"
+    ],
+    "answer": "To check end-to-end delay and show the path packets take"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Why is twisted-pair cabling twisted?",
+    "choices": [
+      "The cabling had a difficult childhood.",
+      "The cabling needs the twists to make it stronger.",
+      "Twisting the cables helps cancel out noise.",
+      "Twisting the cables decreases the signal-to-noise ratio.",
+      "So it can react to changes more quickly."
+    ],
+    "answer": "Twisting the cables helps cancel out noise."
+  },
+  {
+    "type": "matching",
+    "question": "Match each advantage of copper cabling with its description.",
+    "pairs": [
+      {
+        "left": "Conductivity",
+        "right": "Carries electric current well"
+      },
+      {
+        "left": "Corrosion resistance",
+        "right": "Doesn't rust"
+      },
+      {
+        "left": "Ductility",
+        "right": "Can be drawn into thin wires without breaking"
+      },
+      {
+        "left": "Malleability",
+        "right": "Easy to shape"
+      },
+      {
+        "left": "Strength",
+        "right": "Hard to break"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which category of UTP cable is used for Gigabit Ethernet?",
+    "choices": [
+      "Category 1",
+      "Category 2",
+      "Category 3",
+      "Category 4",
+      "Category 6"
+    ],
+    "answer": "Category 6"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following is an accurate advantage of copper cabling compared to fiber-optic cabling?",
+    "choices": [
+      "Copper cabling is susceptible to electromagnetic interference.",
+      "Copper cabling is susceptible to attenuation.",
+      "Copper cabling supports higher bandwidth than fiber-optic cabling.",
+      "Copper cabling is less expensive than fiber-optic cabling, especially for short distances.",
+      "Copper is more plentiful on the earth than glass."
+    ],
+    "answer": "Copper cabling is less expensive than fiber-optic cabling, especially for short distances."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which technology supports the highest bandwidth?",
+    "choices": [
+      "Singlemode fiber",
+      "Multimode fiber",
+      "Copper cabling",
+      "Wireless medium"
+    ],
+    "answer": "Singlemode fiber"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is an advantage of fiber-optic cabling?",
+    "choices": [
+      "It is immune to electromagnetic noise",
+      "It is inexpensive",
+      "It is easy to install",
+      "It is widely used in homes and enterprises"
+    ],
+    "answer": "It is immune to electromagnetic noise"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the most common network medium used for Ethernet?",
+    "choices": [
+      "Unshielded twisted-pair copper cable",
+      "Serial cable",
+      "The air (wireless)",
+      "Coax copper cable"
+    ],
+    "answer": "Unshielded twisted-pair copper cable"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following best describes full-duplex data flow?",
+    "choices": [
+      "Data flows on a single cable that is terminated at both ends.",
+      "Data can flow in only one direction.",
+      "Data can flow in only one direction at a time.",
+      "Data can flow in both directions at a time.",
+      "Data is blocked from flowing in any direction."
+    ],
+    "answer": "Data can flow in both directions at a time."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following types of cabling is usually used in Ethernet LANs to connect end-user computers?",
+    "choices": [
+      "Unshielded Twisted Pair (UTP)",
+      "Shielded Twisted Pair (STP)",
+      "Coax",
+      "Single-mode fiber-optic cabling",
+      "Multimode fiber-optic cabling"
+    ],
+    "answer": "Unshielded Twisted Pair (UTP)"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which protocol would you use to implement a redundant Layer 2 switched network that has multiple possible paths between nodes but only one active path?",
+    "choices": [
+      "Transmission Control Protocol (TCP)",
+      "CSMA/CD",
+      "IEEE 802.11",
+      "Open Shortest Path First (OSPF)",
+      "Spanning Tree Protocol (STP)"
+    ],
+    "answer": "Spanning Tree Protocol (STP)"
+  },
+  {
+    "type": "matching",
+    "question": "What are the names of the fields in an Ethernet II frame?",
+    "pairs": [
+      {
+        "left": "A",
+        "right": "Destination address"
+      },
+      {
+        "left": "B",
+        "right": "Source address"
+      },
+      {
+        "left": "C",
+        "right": "Type"
+      },
+      {
+        "left": "D",
+        "right": "Data"
+      },
+      {
+        "left": "E",
+        "right": "Frame Check Sequence (FCS)"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Where is the Link Layer typically implemented on an end system?",
+    "choices": [
+      "In a network adapter (NIC)",
+      "In hardware",
+      "In software",
+      "In the system's CPU",
+      "All of the answers are correct"
+    ],
+    "answer": "All of the answers are correct"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What do the first six hexadecimal numbers in a MAC address represent?",
+    "choices": [
+      "Interface serial number",
+      "Vendor code",
+      "Interface interrupt identifier",
+      "Subnet mask",
+      "Destination address"
+    ],
+    "answer": "Vendor code"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "How long are MAC addresses in bits?",
+    "choices": [
+      "8",
+      "12",
+      "24",
+      "48",
+      "64"
+    ],
+    "answer": "48"
+  },
+  {
+    "type": "matching",
+    "question": "Drag the correct layer of the Internet protocol stack to each protocol.",
+    "pairs": [
+      {
+        "left": "Ethernet",
+        "right": "Link"
+      },
+      {
+        "left": "IPv4",
+        "right": "Network"
+      },
+      {
+        "left": "UDP",
+        "right": "Transport"
+      },
+      {
+        "left": "TCP",
+        "right": "Transport"
+      },
+      {
+        "left": "HTTP",
+        "right": "Application"
+      },
+      {
+        "left": "DNS",
+        "right": "Application"
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "Match each definition of a wireless technology with the term that it defines.",
+    "pairs": [
+      {
+        "left": "MIMO",
+        "right": "Multiple antennas are used at the transmitter and receiver."
+      },
+      {
+        "left": "Ad hoc mode",
+        "right": "Devices communicate in a peer-to-peer network without a central access point."
+      },
+      {
+        "left": "Infrastructure mode",
+        "right": "Devices communicate with each other through a base station or access point."
+      },
+      {
+        "left": "Passive scanning",
+        "right": "Wireless clients listen for Beacon frames to learn about nearby access points."
+      },
+      {
+        "left": "Active scanning",
+        "right": "Wireless clients send Probe Requests that contain a Service Set Identifier (SSID)."
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "Match each wireless networking security technology with its definition.",
+    "pairs": [
+      {
+        "left": "VPN",
+        "right": "The most secure way to do wireless networking for business employees because data is sent in an encrypted tunnel"
+      },
+      {
+        "left": "Active scanning",
+        "right": "Provides security by requiring the user to know the SSID"
+      },
+      {
+        "left": "MAC filters",
+        "right": "Implements security by allowing only some devices to use the network based on their unique hardware identifier"
+      },
+      {
+        "left": "WEP",
+        "right": "Encrypts data using the RC4 stream cipher but is easily cracked"
+      },
+      {
+        "left": "WPA2",
+        "right": "Encrypts data with the Advanced Encryption Standard (AES)"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What type of communication does Wi-Fi use to transmit and receive?",
+    "choices": [
+      "Simplex",
+      "Half-duplex",
+      "Full-duplex",
+      "Double-duplex"
+    ],
+    "answer": "Half-duplex"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the fundamental job of a wireless base station?",
+    "choices": [
+      "Relay packets from wireless hosts to a wired network",
+      "Organize wireless nodes into an ad hoc network",
+      "Increase the Signal to Noise Ratio (SNR)",
+      "Reduce interference caused by hidden wireless nodes",
+      "All of the answers are correct."
+    ],
+    "answer": "Relay packets from wireless hosts to a wired network"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which IEEE standard defines Wireless LAN (Wi-Fi) technologies?",
+    "choices": [
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.11",
+      "IEEE 802.15"
+    ],
+    "answer": "IEEE 802.11"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the media access control protocol used on wireless LANs?",
+    "choices": [
+      "Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA)",
+      "Code Division Multiple Access (CDMA)",
+      "Cipher Block Chaining (CBC)",
+      "Classless Interdomain Routing (CIDR)",
+      "All of the answers are correct."
+    ],
+    "answer": "Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA)"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the hidden node problem?",
+    "choices": [
+      "A problem in wireless networking that occurs when a node is visible to some nodes but not to all.",
+      "A security problem caused by nodes secretly encrypting their data.",
+      "A problem at the IP layer where routers forward traffic without telling other routers.",
+      "An HTML tag that hides items, thus making debugging difficult."
+    ],
+    "answer": "A problem in wireless networking that occurs when a node is visible to some nodes but not to all."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which statement about WPA2 Enterprise is true?",
+    "choices": [
+      "It uses a pre-shared key that is manually configured on all clients",
+      "It relies on TKIP for encryption",
+      "It typically uses 802.1X with a RADIUS server for authentication",
+      "It can't provide protection against rogue access points"
+    ],
+    "answer": "It typically uses 802.1X with a RADIUS server for authentication"
+  },
+  {
+    "type": "matching",
+    "question": "Match each of the following terms with its definition.",
+    "pairs": [
+      {
+        "left": "Router",
+        "right": "A device that forwards packets in the core of a network"
+      },
+      {
+        "left": "LAN",
+        "right": "A network that operates within a limited geographic area"
+      },
+      {
+        "left": "Network",
+        "right": "A set of devices connected by some form of transmission medium"
+      },
+      {
+        "left": "Packet",
+        "right": "A chunk of data that is sent on a network"
+      },
+      {
+        "left": "Protocol",
+        "right": "A set of rules that govern how devices on a network exchange data"
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "Match each type of network technology with its description.",
+    "pairs": [
+      {
+        "left": "WAN",
+        "right": "An internetwork that operates over a large geographic area"
+      },
+      {
+        "left": "Leased lines",
+        "right": "Dedicated digital, copper circuits that a carrier provides for a customer"
+      },
+      {
+        "left": "DSL",
+        "right": "Offered by phone companies and uses twisted-pair cabling to the home"
+      },
+      {
+        "left": "Cable network",
+        "right": "Offered by TV companies and uses coax cabling to the home"
+      },
+      {
+        "left": "SAN",
+        "right": "Dedicated, high-performance network that moves data between servers and storage"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What information should always accompany an IPv4 address in addressing documentation?",
+    "choices": [
+      "An indication of the prefix length, either as a subnet mask or as /Length in CIDR format",
+      "An indication of the domain name (FQDN)",
+      "The address of the DHCP server",
+      "The address of the NAT gateway"
+    ],
+    "answer": "An indication of the prefix length, either as a subnet mask or as /Length in CIDR format"
+  },
+  {
+    "type": "matching",
+    "question": "In a Unix-based traceroute capture, what does Frame 26 indicate?",
+    "pairs": [
+      {
+        "left": "Router IPv4",
+        "right": "4.59.34.66"
+      },
+      {
+        "left": "Message",
+        "right": "The TTL has exceeded"
+      },
+      {
+        "left": "Original Packet Type",
+        "right": "UDP"
+      },
+      {
+        "left": "Purpose",
+        "right": "To learn the path to the destination (e.g., 72.163.4.185)"
+      }
+    ],
+    "image": "/static/pics/quiz7question3.png"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "A Wireshark capture shows a Juniper device using ARP. Which statement is true?",
+    "choices": [
+      "The device is using ARP to find the MAC address for a specific IP (e.g., 66.241.68.16).",
+      "The MAC address for the target is always 00:00:00:00:00:00.",
+      "The packet is sent to the entire Internet."
+    ],
+    "answer": "The device is using ARP to find the MAC address for a specific IP (e.g., 66.241.68.16).",
+    "image": "/static/pics/quiz6question10.png"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the main reason that 802.11 uses CSMA/CA instead of CSMA/CD?",
+    "choices": [
+      "Wireless signals travel faster than wired signals",
+      "Collision detection is difficult in a wireless environment",
+      "Access points prevent all collisions"
+    ],
+    "answer": "Collision detection is difficult in a wireless environment"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What information does a router use to direct a packet to its destination?",
+    "choices": [
+      "Uniform Resource Locator (URL)",
+      "DNS response",
+      "Destination IP address",
+      "TCP port number",
+      "Trace route"
+    ],
+    "answer": "Destination IP address"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Why does a router have more than one IP address?",
+    "choices": [
+      "A router has an IP address on each of the networks it connects.",
+      "For management purposes.",
+      "For redundancy/failover.",
+      "To provide better network security."
+    ],
+    "answer": "A router has an IP address on each of the networks it connects.",
+    "image": "/static/pics/quiz6question2.png"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What are the RFC 1918 private IP address ranges?",
+    "choices": [
+      "10.0.0.0/8",
+      "172.16.0.0/12",
+      "192.168.0.0/16",
+      "All of the addresses listed"
+    ],
+    "answer": "All of the addresses listed"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "In Wireshark, what does a device address like fe80::aa20:66ff:fe58:4f69 refer to?",
+    "choices": [
+      "An IPv6 address",
+      "An IPv4 address",
+      "A port number",
+      "A MAC address"
+    ],
+    "answer": "An IPv6 address"
+  },
+  {
+    "type": "matching",
+    "question": "Subnet Analysis (172.16.20.10 with mask 255.255.255.0)",
+    "pairs": [
+      {
+        "left": "Network Number",
+        "right": "172.16.20.0"
+      },
+      {
+        "left": "CIDR Format",
+        "right": "/24"
+      },
+      {
+        "left": "Broadcast Address",
+        "right": "172.16.20.255"
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "Subnet Analysis (10.1.1.1 with mask 255.255.240.0)",
+    "pairs": [
+      {
+        "left": "Network Number",
+        "right": "10.1.0.0"
+      },
+      {
+        "left": "CIDR Format",
+        "right": "/20"
+      },
+      {
+        "left": "Broadcast Address",
+        "right": "10.1.15.255"
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "Subnet Analysis (66.241.68.17/27)",
+    "pairs": [
+      {
+        "left": "Network Number",
+        "right": "66.241.68.0"
+      },
+      {
+        "left": "Broadcast Address",
+        "right": "66.241.68.31"
+      }
+    ]
+  },
+  {
+    "type": "matching",
+    "question": "iPhone Wireless Network Analysis",
+    "pairs": [
+      {
+        "left": "IPv4 Address",
+        "right": "192.168.213.139"
+      },
+      {
+        "left": "Subnet Mask (Decimal)",
+        "right": "255.255.252.0"
+      },
+      {
+        "left": "Subnet Mask (Binary 3rd Byte)",
+        "right": "11111100"
+      },
+      {
+        "left": "Subnet Mask (CIDR)",
+        "right": "/22"
+      },
+      {
+        "left": "Subnet Mask (Hex)",
+        "right": "FF.FF.FC.00"
+      },
+      {
+        "left": "Default Gateway (Router)",
+        "right": "192.168.212.1"
+      }
+    ],
+    "image": "/static/pics/quiz6question10.png"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Why do routers run a routing protocol?",
+      "To learn about other networks and how to reach them",
+      "To determine an IP address for their interfaces",
+      "To assign IP addresses to their clients",
+      "To learn MAC addresses for connected devices"
+    ],
+    "answer": "To learn about other networks and how to reach them"
+  },
+  {
+    "type": "matching",
+    "question": "Match the characteristic with the routing type (Distance-vector vs. Link-state).",
+    "pairs": [
+      {
+        "left": "Maintains a routing table of networks, direction, and distance",
+        "right": "Distance-vector"
+      },
+      {
+        "left": "Periodically transmits the full routing table via broadcast",
+        "right": "Distance-vector"
+      },
+      {
+        "left": "Sends updates only when an interconnection changes status",
+        "right": "Link-state"
+      },
+      {
+        "left": "Treats the internetwork as a map or graph",
+        "right": "Link-state"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What type of route is 0.0.0.0/0 via 192.168.10.1?",
+    "choices": [
+      "Distance vector",
+      "Link state",
+      "Directly connected",
+      "Dynamic",
+      "Default"
+    ],
+    "answer": "Default"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the address of the default gateway for the computer in the Windows route print screenshot?",
+    "choices": [
+      "255.255.255.255",
+      "140.211.99.1",
+      "127.0.0.1",
+      "140.211.99.15"
+    ],
+    "answer": "140.211.99.1",
+    "image": "/static/pics/quiz7question4.png"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is typically found in a router's routing table?",
+    "choices": [
+      "Destination address ranges and the interface to use to reach each range",
+      "Addresses of servers clients are trying to reach",
+      "Port numbers for Internet host services",
+      "Recent ping and traceroute results"
+    ],
+    "answer": "Destination address ranges and the interface to use to reach each range"
+  },
+  {
+    "type": "matching",
+    "question": "Is the listed protocol Distance-vector or Link-state?",
+    "pairs": [
+      {
+        "left": "RIP",
+        "right": "Distance-vector"
+      },
+      {
+        "left": "EIGRP",
+        "right": "Distance-vector"
+      },
+      {
+        "left": "IS-IS",
+        "right": "Link-state"
+      },
+      {
+        "left": "OSPF",
+        "right": "Link-state"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Based on the show ip route output provided, which statement is true?",
+    "choices": [
+      "The output displays only connected and static routes.",
+      "The output is from Router B.",
+      "Router D's network is missing.",
+      "The output is from Router A and shows EIGRP routes."
+    ],
+    "answer": "The output is from Router A and shows EIGRP routes.",
+    "image": "/static/pics/quiz6question4.png"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following routing protocols is an inter-autonomous-system protocol?",
+    "choices": [
+      "BGP (Border Gateway Protocol)",
+      "OSPF",
+      "EIGRP",
+      "RIP",
+      "IS-IS"
+    ],
+    "answer": "BGP (Border Gateway Protocol)"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is an autonomous system?",
+    "choices": [
+      "A set of networks that are under the administrative control of a single entity",
+      "A router that acts independently from all other routers",
+      "A router that makes self-assigned decisions without configuration",
+      "An algorithm for sending routing information"
+    ],
+    "answer": "A set of networks that are under the administrative control of a single entity"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is a broadcast address?",
+    "choices": [
+      "A destination address in a packet that means the packet goes to every node",
+      "A source address from a broadcast origin",
+      "An address that identifies a specific network node",
+      "A type of address used exclusively on broadband"
+    ],
+    "answer": "A destination address in a packet that means the packet goes to every node"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which type of routing protocols use the Bellman-Ford algorithm?",
+    "choices": [
+      "Distance-vector",
+      "Link-state",
+      "Static",
+      "Default"
+    ],
+    "answer": "Distance-vector"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which type of routing protocols use Dijkstra's algorithm?",
+    "choices": [
+      "Distance-vector",
+      "Link-state",
+      "Static",
+      "Default"
+    ],
+    "answer": "Link-state"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which term refers to the determining factor used by routing algorithms to decide which route is better?",
+    "choices": [
+      "Metric",
+      "Link state",
+      "NAT",
+      "Vector"
+    ],
+    "answer": "Metric"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which routing term refers to the closest adjacent router a packet can go through?",
+    "choices": [
+      "Next hop",
+      "Link state",
+      "Autonomous system",
+      "Root router"
+    ],
+    "answer": "Next hop"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "How do path-vector routing protocols recognize a routing loop?",
+    "choices": [
+      "When a router receives a route update, if its own autonomous system number is in the path, there's a loop.",
+      "Routers run Dijkstra's algorithm",
+      "Updates hit the maximum hop count",
+      "The split horizon rule eliminates all loops"
+    ],
+    "answer": "When a router receives a route update, if its own autonomous system number is in the path, there's a loop."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following lists fields in the UDP header?",
+    "choices": [
+      "Sender IP, destination IP, length, checksum",
+      "Source port, destination port, length, checksum",
+      "Sequence number, acknowledgement number, window size, checksum",
+      "Flags, queries, answers, authorities"
+    ],
+    "answer": "Source port, destination port, length, checksum"
+  },
+  {
+    "type": "matching",
+    "question": "Match the well-known port number to the network service.",
+    "pairs": [
+      {
+        "left": "Secure Shell (SSH)",
+        "right": "22"
+      },
+      {
+        "left": "Domain Name System (DNS)",
+        "right": "53"
+      },
+      {
+        "left": "DHCP",
+        "right": "67 and 68"
+      },
+      {
+        "left": "HTTP",
+        "right": "80"
+      },
+      {
+        "left": "HTTPS",
+        "right": "443"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What process (or processes) does the screenshot show?",
+    "choices": [
+      "DNS query and reply",
+      "ARP broadcast and response",
+      "TCP 3-way handshake",
+      "HTTP GET",
+      "TCP connection closing",
+      "All of the answers are correct"
+    ],
+    "answer": "All of the answers are correct"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "In the URL https://inside.sou.edu/cs/faculty.html, what does faculty.html refer to?",
+    "choices": [
+      "A host name",
+      "A directory name",
+      "A file name",
+      "A DNS server"
+    ],
+    "answer": "A file name"
+  },
+  {
+    "type": "matching",
+    "question": "Match each layer in the Internet protocol stack with its description.",
+    "pairs": [
+      {
+        "left": "Physical",
+        "right": "Sends bits across the wire (or wireless medium)"
+      },
+      {
+        "left": "Link",
+        "right": "Sends data to a neighboring device such as a switch"
+      },
+      {
+        "left": "Network",
+        "right": "Forwards data through an internetwork and runs routing protocols"
+      },
+      {
+        "left": "Transport",
+        "right": "Provides end-to-end process-to-process communication"
+      },
+      {
+        "left": "Application",
+        "right": "Interacts with the network user; provides client/server communications"
+      }
+    ]
+  }
+]
